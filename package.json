@@ -1,0 +1,25 @@
+{
+  "name": "uw-transcript-stats",
+  "version": "1.0.0",
+  "description": "Parses and generates statistics for unofficial transcripts from Quest",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jfdoming/uw-transcript-stats.git"
+  },
+  "author": "Julian Dominguez-Schatz",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jfdoming/uw-transcript-stats/issues"
+  },
+  "homepage": "https://github.com/jfdoming/uw-transcript-stats#readme",
+  "dependencies": {
+    "pdf2json": "^3.0.2"
+  }
+}
