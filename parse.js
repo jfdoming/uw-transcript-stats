@@ -37,7 +37,7 @@ const getByHeader = (regex, data) => {
 const optNumber = (x) => (isNaN(x) ? x : Number(x));
 
 /////////////////////////////////  IMPORTS  /////////////////////////////////
-const fs = require("fs");
+import fs from "fs";
 
 /////////////////////////////////  PARSING  /////////////////////////////////
 const transcript = fs.readFileSync(STDIN, "utf-8");

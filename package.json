@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "Parses and generates statistics for unofficial transcripts from Quest",
   "main": "index.js",
+  "type": "module",
   "directories": {
     "test": "tests"
   },

@@ -122,7 +122,7 @@ const computeAverageGrade = (courses) => {
 };
 
 ////////////////////////////////   IMPORTS   ////////////////////////////////
-const fs = require("fs");
+import fs from "fs";
 
 //////////////////////////////// CALCULATION ////////////////////////////////
 const transcript = fs.readFileSync(STDIN, "utf-8");
